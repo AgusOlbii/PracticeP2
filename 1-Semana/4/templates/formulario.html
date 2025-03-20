@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de Contacto</h1>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="../templates/galeria.html">Galeria</a>
+            <a href="../templates/tabla.html">Tabla</a>
+            <a href="../templates/lista.html">Listas</a>
+            <a href="../templates/formulario.html">Formulario</a>
+            <a href="www.https://google.com" target="_blank">Google</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form action="https://formspree.io/" method="post" target="_blank">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido">
+                <label for="fecha">Fecha de nacimiento</label>
+                <input type="date" name="fecha" id="fecha">
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad">
+                <br>
+                <label for="genero">Genero</label>
+                <br>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" id="masculino" value="masculino">
+                <label for="femenino">Femenino</label>
+                <input type="radio" name="genero" id="femenino" value="femenino">
+                <label for="otro">Otro</label>
+                <input type="radio" name="genero" id="otro" value="otro">
+                <br>
+                <label for="web">Desarrollo web</label>
+                <input type="radio" name="area" id="web">
+                <label for="datos">Analisis de datos</label>
+                <input type="radio" name="area" id="datos">
+                <label for="desarrollo">Desarrollo de juegos</label>
+                <input type="radio" name="area" id="desarrollo">
+                <br>
+                <label for="tecnologias">Seleccione que tecnologias maneja</label>
+                <label for="html">HTML</label>
+                <input type="checkbox" name="tecnologias" id="html">
+                <label for="js">JS</label>
+                <input type="checkbox" name="tecnologias" id="js">
+                <label for="css">CSS</label>
+                <input type="checkbox" name="tecnologias" id="css">
+                <br>
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <label for="numeroTelefonico">Numero Telefonico</label>
+                    <input type="number" name="numeroTelefonico" id="numeroTelefonico">
+                    <label for="mail">Mail</label>
+                    <input type="email" name="mail" id="mail">
+                </fieldset>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
